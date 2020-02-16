@@ -2008,7 +2008,6 @@ textarea {
 	position: relative;
 	margin: 1em 0;
 	text-align: center;
-	background: $color-neutral-25;
 	color: $color-neutral-80;
 	box-sizing: border-box;
 	border-radius: 2px;
@@ -2029,8 +2028,6 @@ textarea {
 			border: 1px solid black;
 			height: 2.5em;
 			padding: 0 0.25em 0 1.25em;
-			border: 0;
-			border-right: none;
 			appearance: none;
 			outline: none;
 			box-shadow: none;
@@ -2053,10 +2050,6 @@ textarea {
 			box-sizing: border-box;
 			border-radius: 0 4em 4em 0;
 
-			&:focus,
-			&:hover {
-				background: $color-primary-active;
-			}
 		}
 	}
 }
