@@ -96,15 +96,17 @@
 				{{subscribe_form placeholder=(t "Your email address") form_class="post-subscribe-form" input_class="post-subscribe-input" button_class="post-subscribe-button"}}
 			</section>
 			{{/if}}
-			
+
 			{{#if @labs.members}}
-			<form data-members-form="subscribe">
-				<input data-members-email type="email" required="true" placeholder="you@domain.net" />
-				<button type="submit" title="Subscribe by email. No spam, only posts, promise!">Subscribe</button>
-				<p data-members-error>
-					<!-- error message will appear here -->
-				</p>
-			</form>
+			<section class="post-subscribe">
+				<form data-members-form="subscribe" class="post-subscribe-form">
+					<input data-members-email type="email" required="true" placeholder="you@domain.net" class="post-subscribe-input"/>
+					<button type="submit" title="Subscribe by email. No spam, only posts, promise!" class="post-subscribe-button">Subscribe</button>
+					<p data-members-error>
+						<!-- error message will appear here -->
+					</p>
+				</form>
+			</section>
 			{{/if}}
 
 			<aside class="post-nav">
