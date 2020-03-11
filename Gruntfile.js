@@ -15,7 +15,6 @@ module.exports = function(grunt) {
         '<%= config.jsSrcDir %>/libs/jquery-3.4.1.min.js',
         '<%= config.jsSrcDir %>/libs/jquery.fitvids.js',
         '<%= config.jsSrcDir %>/libs/jquery.history.js',
-        '<%= config.jsSrcDir %>/libs/highlight.pack.js',
         '<%= config.jsSrcDir %>/libs/nprogress.js',
         'node_modules/ghosthunter/dist/jquery.ghosthunter.js'
       ]
