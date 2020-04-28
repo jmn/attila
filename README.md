@@ -1,4 +1,6 @@
 # Attila
+![Deploy Theme](https://github.com/jmn/attila/workflows/Deploy%20Theme/badge.svg)
+
 
 A content focused responsive theme for [Ghost](https://github.com/tryghost/ghost/). See a demo at: [attila.zutrinken.com](https://attila.zutrinken.com/)
 
